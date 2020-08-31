@@ -83,17 +83,9 @@ public class Day09_Assertion {
         System.out.println("TEST DOĞRULAMA İŞLEMİ BİTTİ..");
     }
 
-
     @AfterClass
     public static void tearDown(){
         driver.quit();
     }
-
-
-
-
-
-
-
 
 }
